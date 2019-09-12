@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>一个关于农业的实验站</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="XingYicong" />
+    <meta name="description" content="一个关于农业的网站,实验阶段" />
+    <meta property="og:description" content="一个关于农业的网站,实验阶段" />
+    <meta name="referrer" content="origin" />
+    <!-- 判断网站来源,可以相应的做一些校验,比如只允许某网站的请求,那么就可以通过获取referer,加以判断即可. -->
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+    <!-- 因为“shortcut icon”字符串将被多数遵守标准的浏览器识别为列出可能的关键词（“shortcut”将被忽略，而仅适用“icon”）；
+        而Internet Explorer将会把它作为一个单独的名称（“shortcut icon”）。这样做的结果是所有浏览器都可以理解此代码。 -->
+    <link rel="icon" size="any" href="/icon/香蕉树简.svg" />
+    <!-- 非必要，用于为新浏览器提供另一种备用图像（例如动画GIF），Mozilla浏览器通过一种遵从Web标准的方法添加了对favicon的支持。
+        它采用rel="icon"并允许网络设计人员添加任何支持的图像格式的favicon。例如<link rel="icon" type="image/png" href="/path/image.png">。
+        后来鉴于此功能将被用于所有新内容，多数浏览器都对此功能增加了支持。 -->
+    <link rel="profile" href="http://www.w3.org/2005/10/profile" />
+    <!-- 根据《HTML 4.01 Specification W3C Recommendation 24 December 1999》，rel属性的取值仅有：
+        "Alternate Stylesheet Start Next Prev Contents Index Glossary
+        Copyright Chapter Section Subsection Appendix Help Bookmark"
+        如果要采用其他值，应当在head标签中的profile属性中进行自定义。
+        所以在head标签中添加profile属性指向http://www.w3.org/2005/10/profile。用link标签指向Favicon URI，rel值为icon
+        一个常见的错误是不指定profile。-->
+    <link rel="stylesheet" href="Style/main.css" />
+</head>
+
+<body>
+    <script type="text/javascript" defer="defer" src="main.js"></script>
+    <!-- 虽然defer属性设置了脚本被延迟到整个页面都解析完毕后再运行(避免先加载JS脚本再呈现页面),但是某些浏览器会忽略此属性,
+    所以把延迟脚本置于body底部仍然是最佳选择 -->
+</body>
